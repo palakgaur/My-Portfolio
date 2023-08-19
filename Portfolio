@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=AdventPro">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <img src="./passport photo.jpg" alt="Your Profile Photo">
+        <h1>Palak Gaur</h1>
+        <p>Student</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>An aspiring engineering student with a passion for innovation and problem-solving. Throughout my academic journey, I've eagerly embraced challenges and sought out opportunities to apply my theoretical knowledge in practical scenarios. With a strong foundation in engineering principles and a genuine enthusiasm for pushing boundaries.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p><li><b>NETFLIX LANDING PAGE CLONE</b></p>
+            <ol>A Frontend dev project which displays the landing page of a top streaming service.</ol>
+            <ol>Tech Stack: HTML, CSS, JavaScript</ol>
+            <p><li><b>Detecting Phishing Website using ML and Python.</b></li></p>
+            <ol>A phishing website is a common social engineering method that mimics trustful uniform resource locators
+                (URLs) and webpages. The objective of this project is to train machine learning models and deep neural nets on the dataset created to predict phishing websites.</ol>
+            <ol>Tech Stack: ML, Python</ol>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at: palakgaur2001@gmail.com</p>
+        <p>My LinkedIn Profile:<a href="https://www.linkedin.com/in/palak-gaur-9667241b9/">LinkedIn</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Palak Gaur</p>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
